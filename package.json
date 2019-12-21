@@ -1,0 +1,11 @@
+{
+  "name": "comicsdb",
+  "version": "1.0.0",
+  "description": "A tool to orginiaze my comic book collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
