@@ -1,8 +1,8 @@
 module.exports = {
 	"env": {
-		"browser": true,
 		"commonjs": true,
-		"es6": true
+		"es6": true,
+		"node": true
 	},
 	"extends": "eslint:recommended",
 	"globals": {
@@ -13,21 +13,56 @@ module.exports = {
 		"ecmaVersion": 2018
 	},
 	"rules": {
-		"indent": [
-			"error",
-			"tab"
-		],
-		"linebreak-style": [
-			"error",
-			"windows"
-		],
-		"quotes": [
-			"error",
-			"double"
-		],
-		"semi": [
-			"error",
-			"always"
-		]
+		"indent": ["error","tab"],
+		"quotes": ["error","double"],
+		"semi": ["error","always"],
+		"comma-dangle":["error","never"],
+		"no-cond-assign": ["error", "always"],
+		"no-console": "error",
+		"no-constant-condition": "error",
+		"no-debugger": "error",
+		"no-empty": "error",
+		"no-extra-boolean-cast": "error",
+		"no-extra-semi": "error",
+		"no-func-assign": "error",
+		"no-inner-declarations": [2, "both"],
+		"no-negated-in-lhs": "error",
+		"no-sparse-arrays": "error",
+		"no-unreachable": "error",
+		"use-isnan": "error",
+		"valid-typeof": "error",
+		"array-callback-return": "error",
+		"curly": "error",
+		"dot-location": [2, "property"],
+		"eqeqeq": "error",
+		"no-alert": "error",
+		"no-else-return": "error",
+		"no-eval": "error",
+		"no-implied-eval": "error",
+		"no-magic-numbers": "error",
+		"no-multi-spaces": "error",
+		"no-param-reassign": [2, { "props": true }],
+		"no-sequences": "error",
+		"no-with": "error",
+		"vars-on-top": "error",
+		"wrap-iife": ["error", "outside"],
+		"yoda": "error",
+		"no-undef-init": "error",
+		"no-unused-vars": "error",
+		"no-use-before-define": "error",
+		"global-require": "error",
+		"brace-style": ["error", "stroustrup"],
+		"comma-spacing": ["error", {"before": false, "after": true}],
+		"id-length": "2",
+		"no-bitwise": "error",
+		"no-unneeded-ternary": "error",
+		"no-multiple-empty-lines": ["error", {"max": 1}],
+		"no-trailing-spaces": "error",
+		"arrow-spacing": ["error", { "before": true, "after": true }],
+		"no-const-assign": "error",
+		"no-var": "error",
+		"prefer-const": "error",
+		"prefer-spread": "error",
+		"prefer-template": "error"
 	}
 };
